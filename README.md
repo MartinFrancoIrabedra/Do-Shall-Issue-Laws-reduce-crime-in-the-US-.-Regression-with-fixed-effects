@@ -1,4 +1,4 @@
-# Do shall issue laws reduce crime in the US? Regression-with-fixed-effects
+# Do Shall Issue Laws reduce crime in the US? Regression-with-fixed-effects
 
 A problematic that is a constant in any government agenda is definetly crime. Crime is a problem worldwide but the US is particularly interesting to analyse due to the Shall Issue Laws that allow citizens to carry concealed weapons.
 
