@@ -12,9 +12,11 @@ from linearmodels import IV2SLS
 from linearmodels import PanelOLS
 
 
-data = pd.read_stata("/Users/martinfranco/Desktop/Universität/Mikroökonomik/Applied Microeconometrics/Exercises/dta/guns.dta")
-data.to_csv("/Users/martinfranco/Desktop/Universität/Mikroökonomik/Applied Microeconometrics/Exercises/dta/guns.dta")
+url = "https://github.com/MartinFrancoIrabedra/Regression-with-fixed-effects/blob/main/data/guns.dta"
+data = pd.read_stata(url, index_col=0)
+data.to_csv(url)
 print(data)
+
 
 ##### Run a regression of ln(vio) against shall on the pooled data set.
 
